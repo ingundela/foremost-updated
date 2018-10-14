@@ -595,7 +595,12 @@ img{
 }
 
 .brands .slide_box img{
-  width: 115px !important;
+  width: 130px !important;
+  position: absolute;
+  top: 50%;
+  left: 14%;
+  transform: translateY(-50%);
+  width: 100%;
 }
 
 /*---process---*/
