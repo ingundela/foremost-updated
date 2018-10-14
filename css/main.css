@@ -19,6 +19,10 @@ body{
 }
 
 
+.container-fluid {
+  max-width: 1220px !important;
+}
+
 p{
     font-size: 1rem;
     display: block;
@@ -268,6 +272,8 @@ img{
 
 .hero-caption{
     max-width: 60rem;
+    margin: 0;
+    padding: 0;
 }
 
 .hero-caption h1{
@@ -279,10 +285,6 @@ img{
     visibility: inherit;
     transition: none 0s ease 0s;
     text-align: inherit;
-    min-height: 0px;
-    min-width: 0px;
-    max-height: none;
-    max-width: none;
     top: -70px;
     opacity: 1;
     font-size: 60px;
@@ -324,6 +326,10 @@ img{
 
 .aboutFor .wrapperfeatures{
   margin-top: 70px;
+}
+
+.aboutFor .aboutus{
+  margin-left: 20px;
 }
 
 .wrapperfeatures span{
@@ -417,10 +423,6 @@ img{
 
 .firstLine, .secondLine{
   margin-top: 60px;
-}
-
-.serDesc{
-  padding-right: 25px;
 }
 
 .serDesc img{
@@ -642,6 +644,14 @@ img{
    margin-top: 80px;
 }
 
+.questionAnswers .wrapperfeatures{
+  margin-left: 60px;
+}
+
+.questionAnswers .aboutus{
+  margin-left: 0px;
+}
+
 .questtop{
   margin-bottom: 40px;
 }
@@ -666,21 +676,6 @@ img{
   padding: 100px 0;
 }
 
-.brands .fore_brand{
-  margin-top: 60px;
-}
-
-.brands .slide{
-  width: 300px;
-  height: 100px;
-  background-color: grey;
-}
-
-.brand_box img{
-  width: 200px;
-  vertical-align: middle;
-
-}
 
 
 
