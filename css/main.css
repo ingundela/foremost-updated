@@ -578,6 +578,19 @@ img{
   padding-right: 0px !important;
 }
 
+
+/*---Brand---*/
+
+.brands{
+  padding: 100px 0;
+}
+
+.brands .slide img{
+  width: 300px !important;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
 /*---process---*/
 
 .processBrand{
@@ -633,6 +646,7 @@ img{
   borde
 }
 
+
 /*--Questions--*/
 
 .aboutFor.questionAnswers{
@@ -668,15 +682,6 @@ img{
 .box{
   margin-bottom: 30px;
 }
-
-
-/*---Brand---*/
-
-.brands{
-  padding: 100px 0;
-}
-
-
 
 
 /*---footer----*/
