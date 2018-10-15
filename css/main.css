@@ -346,7 +346,6 @@ img{
 
 .features{
   margin-top: 50px;
-  padding: 0;
 }
 
 .features .media{
@@ -705,6 +704,7 @@ img{
   background-repeat: no-repeat !important;
   background-size: contain !important;
   padding: 100px 0;
+  color: #d9d9d9;
 }
 
 .footer h3{
@@ -716,11 +716,10 @@ img{
   letter-spacing: 0.5px;
 }
 
-.footer p {
- 
-  color: #d9d9d9;
+.footer p{
+  text-align: justify-all;
+  overflow: hidden;
 }
-
 .footer .social li{
   display: inline-block;
   margin-right: 20px;
@@ -739,9 +738,17 @@ img{
   transition: all .38s ease;
 }
 
-.footer .footer__box{
-  padding-left: 20px;
+.footer .footer_box1{
+  padding-left: 60px;
+  margin: 0;
 }
+
+
+.footer .footer__box{
+  padding-left: 150px;
+  margin: 0;
+}
+
 .forecontact i{
   margin-right: 10px;
 }
@@ -753,10 +760,6 @@ img{
 .footer h3{
   font-weight: 400;
   margin-top: 10px;
-}
-
-.footer li{
-  color: #cccccc;
 }
 
 .footer-one{
