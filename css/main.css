@@ -260,7 +260,7 @@ img{
     align-items: center;
 }
 
-.hero .overlay{
+.hero .overlay, .contactForm .overlay{
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -276,7 +276,7 @@ img{
     padding: 0;
 }
 
-.hero-caption h1{
+.hero-caption h1, .hero-captionContact h1{
     white-space: nowrap;
     line-height: 88px;
     font-weight: 700;
@@ -782,16 +782,75 @@ img{
 }
 
 
+/*--Contact form--*/
 
+.contactForm{
+  padding: 100px 0;
+}
 
+/*--hero-image--*/
+.contactForm.hero-image{
+    background: url('../img/foremost-banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 500px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
 
+.contactForm .overlay{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,.6);
+    z-index: 2;
+}
 
+.hero-captionContact{
+  max-width: 28rem;
+  margin: 0;
+  padding-top: 50px;
+}
 
+.fore-location{
+  margin: 0;
+}
 
+.contactForm .btn.btn-primary {
+  text-transform: uppercase !important;
+  background-color: #EE392A;
+  border: none;
+}
 
+.contactForm h2{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+}
 
+.contactForm h2:after{
+   content:'';
+  display:block;
+  height: 0.2em;  
+  width:300px;
+  margin:auto;
+  border-bottom:solid;
+  padding-top: 1%;
+  color: #EE392A;
+}
 
-
+.contactForm p{
+  margin: 20px 0;
+}
 
 
 
